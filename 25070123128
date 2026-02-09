@@ -1,0 +1,30 @@
+# Tuple containing subject, marks and grade
+result = ("Python Programming", 82, "A")
+
+# Tuple unpacking
+subject, marks, grade = result
+
+# Display values
+print("Subject:", subject)
+print("Marks:", marks)
+print("Grade:", grade)
+
+# Check for distinction
+if marks >= 75:
+    print("Distinction")
+
+
+# Tuple containing attendance status
+attendance = ('P', 'P', 'A', 'P', 'P')
+
+# Count present and absent days
+present_days = attendance.count('P')
+absent_days = attendance.count('A')
+
+# Display counts
+print("Total Present Days:", present_days)
+print("Total Absent Days:", absent_days)
+
+# Check if employee was absent
+if absent_days >= 1:
+    print("Employee was Absent at least once")
